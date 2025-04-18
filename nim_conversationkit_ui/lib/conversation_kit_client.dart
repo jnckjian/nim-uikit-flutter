@@ -140,10 +140,12 @@ class ConversationItemConfig {
 class ConversationUIConfig {
   final ConversationTitleBarConfig titleBarConfig;
   final ConversationItemConfig itemConfig;
+  final Color backgroundColor;
 
   const ConversationUIConfig(
       {this.titleBarConfig = const ConversationTitleBarConfig(),
-      this.itemConfig = const ConversationItemConfig()});
+      this.itemConfig = const ConversationItemConfig(),
+      this.backgroundColor = Colors.white});
 }
 
 class ConversationKitClient {
