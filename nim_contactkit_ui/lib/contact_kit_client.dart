@@ -93,6 +93,8 @@ class ContactUIConfig {
   /// 通讯录列表配置
   final ContactListConfig contactListConfig;
 
+  final Color backgroundColor;
+
   /// 是否在通讯录界面显示相关功能模块
   final bool showHeader;
 
@@ -117,6 +119,7 @@ class ContactUIConfig {
   const ContactUIConfig(
       {this.contactTitleBarConfig = const ContactTitleBarConfig(),
       this.contactListConfig = const ContactListConfig(),
+      this.backgroundColor = Colors.white,
       this.showHeader = true,
       this.headerData,
       this.topListItemBuilder,

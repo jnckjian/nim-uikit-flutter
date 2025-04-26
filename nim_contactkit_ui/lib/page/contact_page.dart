@@ -28,7 +28,7 @@ class _ContactState extends State<ContactPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: uiConfig.backgroundColor,
       appBar: _titleBarConfig.showTitleBar
           ? AppBar(
               title: Text(
