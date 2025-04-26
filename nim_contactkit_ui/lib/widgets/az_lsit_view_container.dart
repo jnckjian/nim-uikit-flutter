@@ -49,6 +49,7 @@ class _AZListViewContainerState extends State<AZListViewContainer> {
       alignment: Alignment.centerLeft,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
             tag,
@@ -56,9 +57,6 @@ class _AZListViewContainerState extends State<AZListViewContainer> {
             style: TextStyle(
                 fontSize: widget.textSize ?? 14,
                 color: widget.textColor ?? CommonColors.color_333333),
-          ),
-          SizedBox(
-            height: 8,
           ),
           Container(
             height: 1,
